@@ -1,0 +1,13 @@
+prebuilt_etc {
+    name: "qspa_system.rc",
+    src: "qspa_system.rc",
+    relative_install_path: "init",
+    system_ext_specific: true,
+}
+
+prebuilt_etc {
+    name: "qspa_default.rc",
+    src: "qspa_default.rc",
+    relative_install_path: "qspa",
+    system_ext_specific: true,
+}
